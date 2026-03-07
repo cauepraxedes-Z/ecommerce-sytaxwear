@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SyntaxWear | Sua Loja de Calçados</title>
+    
+    <!-- Importação do Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <!-- CSS Externo -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+    <header class="header container">
+        <div class="logo">
+            <h1>Syntax<span>Wear</span></h1>
+        </div>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li><a href="#">Masculino</a></li>
+                <li><a href="#">Feminino</a></li>
+                <li><a href="#">Lançamentos</a></li>
+                <li><a href="#">Promoções</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Etapa 4: Hero Section -->
+        <section class="hero container">
+            <div class="hero-content">
+                <h2 class="hero-title">O Passo Certo para o Seu Sucesso</h2>
+                <p class="hero-text">Calçados exclusivos que combinam tecnologia de ponta com o design que você merece.</p>
+                <a href="#produtos" class="btn-primary">Ver Coleção</a>
+            </div>
+        </section>
+
+        <!-- Etapa 5: Seção Destaque -->
+        <section class="featured container">
+            <div class="featured-column featured-image">
+                <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&q=80&w=800" alt="Produto em Destaque">
+            </div>
+            <div class="featured-column featured-info">
+                <h2 class="section-title">Qualidade Impecável</h2>
+                <p class="featured-desc">Nossa nova coleção foi desenvolvida para oferecer o máximo conforto sem abrir mão da elegância. Cada detalhe foi pensado para durar.</p>
+                <ul class="materials-list">
+                    <li><strong>Material:</strong> Couro Premium Italiano</li>
+                    <li><strong>Solado:</strong> Borracha Vulcanizada</li>
+                    <li><strong>Interno:</strong> Forro em Algodão Orgânico</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Etapa 6: Grid de Produtos -->
+        <section id="produtos" class="products container">
+            <h2 class="section-title text-center">Nossos Lançamentos</h2>
+            <div class="product-grid">
+                <!-- Card 1 -->
+                <article class="product-card">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&q=80&w=400" alt="Tênis Urban Blue">
+                    </div>
+                    <div class="product-info">
+                        <h3>Urban Blue</h3>
+                        <p class="price">R$ 349,90</p>
+                        <button class="btn-buy">Comprar Agora</button>
+                    </div>
+                </article>
+
+                <!-- Card 2 -->
+                <article class="product-card">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&q=80&w=400" alt="Sneaker Classic">
+                    </div>
+                    <div class="product-info">
+                        <h3>Sneaker Classic</h3>
+                        <p class="price">R$ 289,90</p>
+                        <button class="btn-buy">Comprar Agora</button>
+                    </div>
+                </article>
+
+                <!-- Card 3 -->
+                <article class="product-card">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&q=80&w=400" alt="Air Pro White">
+                    </div>
+                    <div class="product-info">
+                        <h3>Air Pro White</h3>
+                        <p class="price">R$ 499,90</p>
+                        <button class="btn-buy">Comprar Agora</button>
+                    </div>
+                </article>
+
+                <!-- Card 4 -->
+                <article class="product-card">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&q=80&w=400" alt="Vans Old School Style">
+                    </div>
+                    <div class="product-info">
+                        <h3>Style Retro</h3>
+                        <p class="price">R$ 259,90</p>
+                        <button class="btn-buy">Comprar Agora</button>
+                    </div>
+                </article>
+
+                <!-- Card 5 -->
+                <article class="product-card">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1560769629-975ec94e6a86?auto=format&fit=crop&q=80&w=400" alt="Leather Boots">
+                    </div>
+                    <div class="product-info">
+                        <h3>Bota Adventure</h3>
+                        <p class="price">R$ 529,90</p>
+                        <button class="btn-buy">Comprar Agora</button>
+                    </div>
+                </article>
+
+                <!-- Card 6 -->
+                <article class="product-card">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&q=80&w=400" alt="Sport Run">
+                    </div>
+                    <div class="product-info">
+                        <h3>Sport Run Extreme</h3>
+                        <p class="price">R$ 399,90</p>
+                        <button class="btn-buy">Comprar Agora</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <!-- Etapa 7: Rodapé -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <h3>Links Úteis</h3>
+                <ul>
+                    <li><a href="#">Trocas e Devoluções</a></li>
+                    <li><a href="#">Guia de Tamanhos</a></li>
+                    <li><a href="#">Política de Privacidade</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Redes Sociais</h3>
+                <div class="social-links">
+                    <a href="#">Instagram</a>
+                    <a href="#">Facebook</a>
+                    <a href="#">Twitter</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Newsletter</h3>
+                <p>Receba ofertas exclusivas por e-mail.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Seu melhor e-mail">
+                    <button type="submit">Assinar</button>
+                </form>
+            </div>
+            <div class="footer-col">
+                <h3>SyntaxWear</h3>
+                <p>A melhor experiência em calçados desde 2024.</p>
+                <p>&copy; 2026 Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
