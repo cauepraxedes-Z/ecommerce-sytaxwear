@@ -10,13 +10,14 @@
   z-index: 999;
 
   width: calc(100% - 40%);
-  padding: 20px 28px;
+  padding: 12px 20px;
   border-radius: 15px;
   background-color: #ffffff;
-  
+
 }
 .logo img {
-  width: 40px;
+    height: 46px;
+ 
 }
 
 .nav-center ul{
