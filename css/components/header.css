@@ -13,7 +13,7 @@
   width: 90%;
   max-width: 1200px;
   padding: 0.225rem 1.25rem;
-  
+
   border-radius: 50px;
   background-color: rgba(255, 255, 255, 0.95);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
@@ -22,7 +22,7 @@
 
 .logo img {
   height: 40px;
-  display: block;
+  
 }
 
 .nav-list {
@@ -55,6 +55,7 @@
   .site-header {
     width: 95%;
     padding: 10px 20px;
+    height: 300px;
   }
   
   .nav-center {

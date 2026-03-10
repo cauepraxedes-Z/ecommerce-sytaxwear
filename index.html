@@ -5,13 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SyntaWear - Tênis e Sneaker Online</title>
+    <meta name="description"
+        content="Compre os melhores tênis e sneakers online na SyntaxWear. Encontre modelos exclusivos, ofertas imperdíveis e frete grátis para todo Brasil" />
+
 
     <link rel="stylesheet" href="./css/components/reset.css">
     <link rel="stylesheet" href="./css/components/variables.css">
     <link rel="stylesheet" href="./css/components/base.css">
-    <link rel="stylesheet" href="./css/components/layout.css">
     <link rel="stylesheet" href="./css/components/header.css">
     <link rel="stylesheet" href="./css/components/hero.css">
+    <link rel="stylesheet" href="./css/components/footer.css">
+    <link rel="stylesheet" href="./css/components/product-category.css">
+
 
 </head>
 
@@ -36,9 +41,12 @@
             <ul class="nav-list">
                 <li><a href="#">Lojas</a></li>
                 <li><a href="#">Sobre</a></li>
-                <li class="icon"><a href="#" title="Minha Conta"><img src="./images/logo/Vector.svg" alt="Minha Conta" style="height: 20px;"></a></li>
-                <li class="icon"><a href="#" title="Ajuda"><img src="./images/logo/help.svg.svg" alt="Ajuda" style="height: 20px;"></a></li>
-                <li class="icon"><a href="#" title="Carrinho"><img src="./images/logo/bag.svg.svg" alt="Carrinho" style="height: 20px;"></a></li>
+                <li class="icon"><a href="#" title="Minha Conta"><img src="./images/logo/Vector.svg" alt="Minha Conta"
+                            style="height: 20px;"></a></li>
+                <li class="icon"><a href="#" title="Ajuda"><img src="./images/logo/help.svg.svg" alt="Ajuda"
+                            style="height: 20px;"></a></li>
+                <li class="icon"><a href="#" title="Carrinho"><img src="./images/logo/bag.svg.svg" alt="Carrinho"
+                            style="height: 20px;"></a></li>
             </ul>
         </nav>
     </header>
@@ -46,21 +54,49 @@
     <main>
         <section class="hero-section">
             <div class="hero-overlay">
-            <div class="hero-content">
-                <span class="hero-subtitle">Krypton One</span>
-                <h2 class="hero-title">Transforme qualquer passo em presença.</h2>
-                <div class="hero-buttons">
-                    <a class="btn btn-outline" href="#">Ver modelos</a>
-                    <a class="btn btn-filled" href="#">Comprar</a>
+                <div class="hero-content">
+                    <span class="hero-subtitle">Krypton One</span>
+                    <h2 class="hero-title">Transforme qualquer passo em presença.</h2>
+                    <div class="hero-buttons">
+                        <a class="btn btn-outline" href="#">Ver modelos</a>
+                        <a class="btn btn-filled" href="#">Comprar</a>
+                    </div>
                 </div>
             </div>
+        </section>
+
+        <section class="categories-section">
+            <div class="category-card casual">
+                <a href="#" class="category-link">
+                    <span class="overlay"></span>
+                    <span class="category-name btn btn-outline">Casual</span>
+                </a>
+            </div>
+            <div class="category-card esport">
+                <a href="#" class="category-link">
+                    <span class="overlay"></span>
+                    <span class="category-name btn btn-outline">Esporte</span>
+                </a>
+            </div>
+            <div class="category-card moderno">
+                <a href="#" class="category-link">
+                    <span class="overlay"></span>
+                    <span class="category-name btn btn-outline">Moderno</span>
+                </a>
+            </div>
+            <div class="category-card futurista">
+                <a href="#" class="category-link">
+                    <span class="overlay"></span>
+                    <span class="category-name btn btn-outline">Futurista</span>
+                </a>
             </div>
         </section>
+
 
         <!-- Etapa 5: Seção Destaque -->
         <section class="highlight-section">
             <div class="highlight-image">
-                <img src="./images/banners/card_imagem.svg" alt="Destaque">
+                <img src="./images/banners/hero.jpg" alt="Destaque">
             </div>
             <div class="highlight-info">
                 <ul class="features-list">
@@ -89,35 +125,70 @@
     </main>
 
     <footer class="footer">
-        <div class="container footer-grid">
-            <div class="footer-col">
-                <h3>Links Úteis</h3>
-                <ul>
-                    <li><a href="#">Trocas e Devoluções</a></li>
-                    <li><a href="#">Guia de Tamanhos</a></li>
-                    <li><a href="#">Política de Privacidade</a></li>
-                </ul>
-            </div>
-            <div class="footer-col">
-                <h3>Redes Sociais</h3>
-                <div class="social-links">
-                    <a href="#">Instagram</a>
-                    <a href="#">Facebook</a>
-                    <a href="#">Twitter</a>
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-newsletter">
+                    <p>Inscreva-se em nosso e-mail</p>
+                    <input type="email" placeholder="email@email.com">
+
+                    <div class="footer-social">
+                        <p>Redes sociais</p>
+                        <div class="social-icons">
+                            <a href="#"><img src="./images/logo/Vector.svg" alt="Instagram"></a>
+                            <a href="#"><img src="./images/logo/Vector.svg" alt="WhatsApp"></a>
+                            <a href="#"><img src="./images/logo/Vector.svg" alt="TikTok"></a>
+                            <a href="#"><img src="./images/logo/Vector.svg" alt="Facebook"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <h3>Masculino</h3>
+                        <ul>
+                            <li><a href="#">Casual</a></li>
+                            <li><a href="#">Esporte</a></li>
+                            <li><a href="#">Moderno</a></li>
+                            <li><a href="#">Futurista</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h3>Feminino</h3>
+                        <ul>
+                            <li><a href="#">Casual</a></li>
+                            <li><a href="#">Esporte</a></li>
+                            <li><a href="#">Moderno</a></li>
+                            <li><a href="#">Futurista</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h3>Outlet</h3>
+                        <ul>
+                            <li><a href="#">Masculino</a></li>
+                            <li><a href="#">Feminino</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h3>Nossas lojas</h3>
+                        <ul>
+                            <li><a href="#">Loja física</a></li>
+                            <li><a href="#">Loja online</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h3>Sobre</h3>
+                        <ul>
+                            <li><a href="#">Quem somos</a></li>
+                            <li><a href="#">Missão</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-            <div class="footer-col">
-                <h3>Newsletter</h3>
-                <p>Receba ofertas exclusivas por e-mail.</p>
-                <form class="newsletter-form">
-                    <input type="email" placeholder="Seu melhor e-mail">
-                    <button type="submit">Assinar</button>
-                </form>
-            </div>
-            <div class="footer-col">
-                <h3>SyntaxWear</h3>
-                <p>A melhor experiência em calçados desde 2024.</p>
-                <p>&copy; 2026 Todos os direitos reservados.</p>
+
+            <hr class="footer-divider">
+
+            <div class="footer-bottom">
+                <p>Copyright. All Rights Reserved</p>
             </div>
         </div>
     </footer>
