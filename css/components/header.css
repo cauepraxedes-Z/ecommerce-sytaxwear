@@ -1,4 +1,4 @@
-.header {
+.site-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -9,40 +9,55 @@
   transform: translateX(-50%);
   z-index: 999;
 
-  width: calc(100% - 40%);
-  padding: 12px 20px;
-  border-radius: 15px;
-  background-color: #ffffff;
-
-}
-.logo img {
-    height: 46px;
- 
-}
-
-.nav-center ul{
-
-display: flex;
-gap: 2.5rem;
-}
-
-.nav-center a:hover,
-.nav-right a:hover {
-    font-size: 1.25rem;
-    color: #7c3aed;
-}
-
-.nav-right ul {
-    display:flex;
-    gap: 2.5rem;
-    alingn-items: center;
-
-}
- .nav-right img {
-    height: 20px;
-}
+  /* Largura do cabeçalho flutuante */
+  width: 90%;
+  max-width: 1200px;
+  padding: 0.225rem 1.25rem;
   
-.nav-right a:hover img {
-    opacity: 0.7;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+}
 
+.logo img {
+  height: 40px;
+  display: block;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.nav-list a:hover {
+  color: #7c3aed; /* Cor roxa para o destaque */
+}
+
+/* Estilo para os ícones no canto direito */
+.nav-right .icon a {
+  font-size: 1.2rem;
+}
+
+/* Responsividade simples */
+@media (max-width: 768px) {
+  .site-header {
+    width: 95%;
+    padding: 10px 20px;
+  }
+  
+  .nav-center {
+    display: none; /* Esconde o menu central em celulares para simplificar */
+  }
 }
