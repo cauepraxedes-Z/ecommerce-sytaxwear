@@ -54,6 +54,7 @@ footer a {
 }
 
 .social-icons {
+    filter: brightness(0) invert(1);
     display: flex;
     gap: 15px;
 }
