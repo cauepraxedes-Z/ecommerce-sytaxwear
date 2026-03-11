@@ -4,13 +4,13 @@
   justify-content: space-between;
 
   position: fixed;
-  top: 20px;
+  top: 60px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 999;
 
   /* Largura do cabeçalho flutuante */
-  width: 90%;
+  width: calc(100% - 210px);
   max-width: 1200px;
   padding: 0.225rem 1.25rem;
 
