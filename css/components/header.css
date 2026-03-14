@@ -1,4 +1,4 @@
-.site-header {
+.header {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -10,7 +10,7 @@
   z-index: 999;
 
   /* Largura do cabeçalho flutuante */
-  width: calc(100% - 210px);
+  width: 1260px;
   max-width: 1200px;
   padding: 0.225rem 1.25rem;
 
@@ -22,7 +22,7 @@
 
 .logo img {
   height: 40px;
-  
+
 }
 
 .nav-list {
@@ -42,23 +42,77 @@
 }
 
 .nav-list a:hover {
-  color: #7c3aed; /* Cor roxa para o destaque */
+  color: #7c3aed;
+  /* Cor roxa para o destaque */
 }
 
 /* Estilo para os ícones no canto direito */
-.nav-right .icon a {
+.icon a {
   font-size: 1.2rem;
+}
+
+.icon-img {
+    height: 20px;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+.menu-icon {
+    display: none;
+  width: 30px;
+  height: 30px;
+  transition: opacity 0.3s ease;
+  cursor: pointer;
+}
+
+.menu-icon img {
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.3s ease;
+}
+
+.menu-icon:hover img {
+  opacity: 0.7;
+
+}
+
+@media (max-width: 1280px) {
+  .header {
+    width: calc(100% - 40px);
+  }
 }
 
 /* Responsividade simples */
 @media (max-width: 768px) {
-  .site-header {
+  .header {
     width: 95%;
     padding: 10px 20px;
-    height: 300px;
+  }
+
+  .nav-list {
+    display: none;
   }
   
-  .nav-center {
-    display: none; /* Esconde o menu central em celulares para simplificar */
+  .menu-icon {
+    display: block;
+  }
+
+  .menu-toggle:checked ~ .nav {
+    display: block;
+  }
+
+  .menu-toggle:checked ~ .nav .nav-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 1rem 0;
   }
 }
