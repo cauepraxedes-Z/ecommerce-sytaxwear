@@ -4,43 +4,43 @@
     background-repeat: no-repeat;
     position: relative;
     border-radius: 20px;
-
+   
 }
 
 .highlight {
     grid-area: highlight;
-    background-image: url(../../images/products/highlight.jpg);
+    background-image: url("../../images/products/highlight.jpg");
 }
 
 .sneaker-purple {
     grid-area: sneaker-purple;
-    background-image: url(../../images/products/sneaker-purple.jpg);
+    background-image: url("../../images/products/sneaker-purple.jpg");
 }
 
 .model {
     grid-area: model;
-    background-image: url(../../images/products/model.jpg);
+    background-image: url("../../images/products/model.jpg");
 }
 
 .sneaker-color {
     grid-area: sneaker-color;
-    background-image: url(../../images/products/sneaker-color.jpg);
+    background-image: url("../../images/products/sneaker-color.jpg");
 
 }
 
 .sneaker-white {
     grid-area: sneaker-white;
-    background-image: url(../../images/products/sneaker-white.png);
+    background-image: url("../../images/products/sneaker-white.png");
 }
 
 .sneaker-silver {
     grid-area: sneaker-silver;
-    background-image: url(../../images/products/sneaker-silver.jpg);
+    background-image: url("../../images/products/sneaker-silver.jpg");
 }
 
 .sneaker-preto-azul {
     grid-area: sneaker-preto-azul;
-    background-image: url(../../images/products/sneaker-preto-azul.jpg);
+    background-image: url("../../images/products/sneaker-preto-azul.jpg");
 }
 
 
@@ -51,7 +51,7 @@
     grid-template-areas:
         "highlight highlight sneaker-purple sneaker-purple"
         "highlight highlight model sneaker-color"
-        "sneaker-preto-azul sneaker-white model sneaker-silver";
+         "sneaker-preto-azul sneaker-preto-azul model sneaker-silver";
     gap: 30px;
 }
 
@@ -94,7 +94,7 @@
     transition: all 0.3s ease;
     cursor: pointer;
     margin-bottom: 10px;
-    /* Separa na vertical */
+    
 }
 
 .btn-outline {

@@ -9,7 +9,7 @@
   transform: translateX(-50%);
   z-index: 999;
 
-  /* Largura do cabeçalho flutuante */
+
   width: 1260px;
   max-width: 1200px;
   padding: 0.225rem 1.25rem;
@@ -43,10 +43,9 @@
 
 .nav-list a:hover {
   color: #7c3aed;
-  /* Cor roxa para o destaque */
+
 }
 
-/* Estilo para os ícones no canto direito */
 .icon a {
   font-size: 1.2rem;
 }
@@ -84,7 +83,7 @@
   }
 }
 
-/* Responsividade simples */
+
 @media (max-width: 768px) {
   .header {
     width: 95%;
